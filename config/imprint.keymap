@@ -6,8 +6,9 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
-    chosen { zmk,matrix-transform = &dactyl_manuform_number_row;
+    chosen { zmk,matrix-transform = &dactyl_manuform_number_row_4; 
     };
+
     keymap {
         compatible = "zmk,keymap";
 
